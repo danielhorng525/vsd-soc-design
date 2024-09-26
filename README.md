@@ -23,9 +23,19 @@ Core: The core is the processing unit within a chip that performs the actual com
 
 Die: The die is the piece of semiconductor material (usually silicon) on which the circuits and transistors of the chip are fabricated. It contains the integrated circuits and is housed within the chip package. The die is where all the processing happens.
 
+#### IPs and Macros
+
+![IPs_Macros](https://github.com/user-attachments/assets/9dd3c48d-b7ea-4849-a53b-4e52398dda56)
+
+IPs (Intellectual Properties): In chip design, IP blocks or IPs refer to pre-designed and pre-verified reusable functional units or modules, such as processors, memory controllers, or communication interfaces. These blocks are licensed from third parties or developed in-house and can be integrated into a larger chip design. IPs help reduce development time and cost since they don't need to be designed from scratch.
+
+Macros: Macros in chip design are larger pre-defined blocks of logic, often referring to standard cells (like logic gates) or larger functional units (e.g., SRAMs or clock generators). These are typically pre-characterized blocks optimized for performance, area, or power that can be easily placed into the chip layout. Macros can be thought of as physical building blocks within a chip.
+
 #### ISA
 
 The ISA is the set of instructions that a processor can execute. It defines how software interacts with the hardware, specifying the machine code instructions that the CPU understands. Examples include x86, ARM, and RISC-V ISAs.
+
+![SW_to_HW](https://github.com/user-attachments/assets/a3b3a79a-2958-4728-88a4-ef8bdc3d8ef1)
 
 #### Open-source Implementation
 
